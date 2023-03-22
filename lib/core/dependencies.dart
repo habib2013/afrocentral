@@ -34,9 +34,6 @@ void setUpLocator() {
   locator.registerSingleton<Dio>(Dio());
 
 
-  // locator.registerSingleton<AppAuthService>(
-  //     AppAuthService(dioConfig()));
-
 }
 
 Dio dioConfig() {
